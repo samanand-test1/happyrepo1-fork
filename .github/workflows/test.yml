@@ -2,6 +2,7 @@ name: Hello World Workflow
 
 on: 
   push:
+  merge_group:
     branches:
       - main
 
